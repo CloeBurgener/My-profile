@@ -1,0 +1,97 @@
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+img {
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: navy;
+    display: inline-block;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+}
+p img {
+    margin: 0 10px;
+}
+.card {
+    background-color: whitesmoke;
+    margin: 10px auto;
+    padding: 16px;
+    width: 800px;
+    border-radius: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+
+  .button {
+    background-color: lightseagreen;
+    color: white;
+    text-decoration: none;
+    padding: 12px 24px;
+    transition: opacity .3s;
+  }
+
+  .button:hover {
+    opacity: 0.6    ;
+  }
+
+  .card:hover {
+    box-shadow: 10px 10px 10px lightgrey;
+  }
+  
+  .profile-pic {
+    object-fit:cover;
+    width:250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 1px;
+    box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.25);
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .card {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .card {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .card {
+      width: 300px;
+    }
+  }
